@@ -23,8 +23,8 @@ class Tfidf(TfidfTransformer):
 
     Example
     -------
-    >>> from Term_Frequency_Inverse_Document_Frequency_Transformer import tfidf_transformer
-    >>> tfidf_transformer.Tfidf().apply_transformation(data=['A sentence.', 'Another sentence.'])
+    >>> from tfidf_transformer import Tfidf
+    >>> Tfidf().apply_transformation(data=['A sentence.', 'Another sentence.'])
               TF-IDF
     sentence     1.0
     another      0.0
