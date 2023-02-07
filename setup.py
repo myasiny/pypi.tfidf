@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name='TF-IDF Transformer',
+    name='Term-Frequency-Inverse-Document-Frequency-Transformer',
     version='1.0.0',
     author='M Yasin Yıldırım',
     author_email='myasiny@gmail.com',
